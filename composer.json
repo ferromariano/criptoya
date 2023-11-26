@@ -16,6 +16,7 @@
             "homepage": "https://github.com/ferromariano/"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2",
         "ext-curl": "*",
