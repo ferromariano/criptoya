@@ -1,0 +1,31 @@
+{
+    "name": "mferro/criptoya",
+    "description": "criptoya client api",
+    "type": "library",
+    "version": "0.1",
+    "keywords": [
+        "criptoya",
+        "php",
+        "api"
+    ],
+    "homepage": "https://github.com/ferromariano/criptoya",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mariano Damian Ferro Villanueva",
+            "homepage": "https://github.com/ferromariano/"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.4 || ^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CriptoYa\\" : "src/"
+        }
+    }
+}
